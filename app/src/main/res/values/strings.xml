@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TestSE</string>
+    <string name="question">Eingabe String:</string>
+    <string name="hint">String >=5 Zeichen</string>
+    <string name="check">Check String</string>
+    <string name="logo">Palindrom?</string>
+
+
 </resources>

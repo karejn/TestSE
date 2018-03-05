@@ -1,11 +1,102 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/button</item>
     </style>
+
+    <!-- Background -->
+    <style name="bg">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Cards with questions -->
+    <style name="card" parent= "CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">@dimen/layout_margin</item>
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+    </style>
+
+    <style name="card.ord">
+        <item name="android:layout_height">@dimen/card_ord</item>
+    </style>
+
+    <style name="Old_paper">
+        <item name="android:src">@drawable/oldpaper</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="Linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Linear_layout.questions">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">@dimen/layout_margin</item>
+    </style>
+
+    <style name="header">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="header.question">
+        <item name="android:textSize">@dimen/qustion_text_size</item>
+        <item name="android:paddingBottom">@dimen/padding_bottom</item>
+    </style>
+
+    <style name="Edit_text">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <style name="check">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginLeft">@dimen/margin100</item>
+        <item name="android:layout_marginRight">@dimen/margin100</item>
+        <item name="android:layout_marginBottom">@dimen/margin_top</item>
+        <item name="android:layout_marginTop">@dimen/margin_top</item>
+    </style>
+
+    <!-- Logo -->
+    <style name="Logo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/logo_heigth</item>
+        <item name="android:padding">@dimen/logo_padding</item>
+        <item name="android:layout_marginTop">@dimen/margin_top</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">@dimen/logo_text_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingBottom">@dimen/padding_bottom</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+
+
 
 </resources>
