@@ -18,7 +18,7 @@
     </style>
 
     <!-- Cards with questions -->
-    <style name="card" parent= "CardView">
+    <style name="card" parent="CardView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_margin">@dimen/layout_margin</item>
         <item name="cardBackgroundColor">@android:color/transparent</item>
@@ -93,10 +93,6 @@
         <item name="android:paddingBottom">@dimen/padding_bottom</item>
         <item name="android:textStyle">bold</item>
     </style>
-
-
-
-
 
 
 </resources>

@@ -4,6 +4,11 @@
     <string name="hint">String >=5 Zeichen</string>
     <string name="check">Check String</string>
     <string name="logo">Palindrom?</string>
-
+    <string name="isStringError">Input should contain ONLY letters</string>
+    <string name="lengthError">Input should contain at least 5 letters</string>
+    <string name="isPalindromTrue">String is a palindrom</string>
+    <string name="isPalindromFalse">String is NOT a palindrom</string>
+    <string name="emptyString">Input is empty</string>
+    <string name="desc">No description</string>
 
 </resources>
