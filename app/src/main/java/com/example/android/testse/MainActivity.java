@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         input = (EditText) findViewById(R.id.input);
     }
 
-    //Displays toast message
+    //Displays toast messageeeeeeeee
     private void displayToast(String toastText) {
         Context context = getApplicationContext();
         int duration = Toast.LENGTH_LONG;
